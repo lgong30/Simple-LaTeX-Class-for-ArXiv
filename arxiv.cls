@@ -10,10 +10,13 @@
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{arxiv}[2017/11/08 arXiv LaTeX class]
 
-\LoadClass[onecolumn]{article}
 
-\DeclareOption*{\PassOptionsToClass{\CurrentOption}{article}}
-\ProcessOptions\relax
+\LoadClassWithOptions{article}
+
+
+
+\providecommand*{\authormark}{\footnotemark}
+
 
 %% commonly used packages
 \RequirePackage{ifthen}
@@ -136,8 +139,10 @@
 \newtheorem{assumption}{Assumption}
 \providecommand*{\assumptionautorefname}{Assumption}
 
-\newcommand{\code}{\ttfamily}
-
+\providecommand*{\code}{\ttfamily}
+\providecommand*{\email}[1]{%
+    \normalsize\href{mailto:#1}{#1}\par
+    }
 
 
 %% layout
