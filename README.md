@@ -1,6 +1,6 @@
 # Simple-LaTeX-Class-for-ArXiv
 
-This repository provides a simple LaTeX class for submissions to arXiv. 
+This repository provides a simple LaTeX class for submissions to arXiv -- [arxiv.cls](./arxiv.cls). 
 
 
 ## Features Considered
