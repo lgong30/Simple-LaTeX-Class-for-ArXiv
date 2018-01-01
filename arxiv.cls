@@ -32,7 +32,7 @@
     citecolor={blue!50!black},
     urlcolor={blue!80!black}]{hyperref}
 
-\RequirePackage{cite}
+\RequirePackage[sort, compress]{cite}
 % This package reimplements the LATEX verbatim and verbatim* environments.
 % In addition it provides a comment environment that skips any
 % commands or text between \begin{comment} and the next \end{comment}.
