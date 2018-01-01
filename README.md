@@ -8,6 +8,9 @@ This repository provides a simple LaTeX class for submissions to arXiv -- [arxiv
 + autoref for "all cross-reference"
 + theorem-like environment
 + ... [**to be added in future version**]
++ remove appendix patch
++ add options to hyperref [support easily enable & disable]
+
 
 ## Usage
 
